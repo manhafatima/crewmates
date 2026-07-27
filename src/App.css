@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+
+  background:
+    radial-gradient(circle at top, #1b2735 0%, #090a0f 100%);
+
+  color: white;
+
+  min-height: 100vh;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 60px;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(12px);
+
+    border-bottom:1px solid rgba(255,255,255,.1);
+
+    position:sticky;
+    top:0;
+}
+
+.navbar h2{
+    color:#6fdcff;
+    font-size:32px;
+}
+
+.navbar div{
+    display:flex;
+    gap:30px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.navbar a:hover{
+    color:#6fdcff;
+}
+
+.container{
+    width:80%;
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:40px;
+}
+
+.card{
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(10px);
+
+    border-radius:20px;
+
+    padding:25px;
+
+    margin:25px 0;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+
+    transition:.3s;
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 40px rgba(0,0,0,.5);
+}
+
+.card h2{
+    color:#6fdcff;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#d8d8d8;
+}
+
+
+button{
+
+    border:none;
+
+    padding:12px 24px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    margin-right:10px;
+
+    font-weight:bold;
+
+    background:#5d5fef;
+
+    color:white;
+
+    transition:.3s;
+}
+
+button:hover{
+
+    background:#7879ff;
+
+    transform:scale(1.05);
+}
+
+input{
+
+    width:350px;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    border:none;
+
+    margin-bottom:20px;
+
+    background:#222;
+
+    color:white;
+}
+
+label{
+
+    margin-right:20px;
+
+    font-size:18px;
+}
+
+h1{
+
+    text-align:center;
+
+    font-size:48px;
+
+    color:#6fdcff;
+
+    margin-bottom:40px;
+}
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#ccc;
+    margin-bottom:50px;
+    font-size:20px;
+}
