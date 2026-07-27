@@ -1,16 +1,21 @@
-# React + Vite
+# WEB102 Project 7 - *Crewmates*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a React-based Crewmates application that allows users to have a space for their crewmates. Users can browse a summary of all created crewmates, view detailed information for each one, etc.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🎯 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✅ Required Features
 
-## Expanding the ESLint configuration
+- [x] The app displays the title of the card set, a short description, and the total number of cards
+- [x] A single card at a time is displayed
+- [x] Each crewmate has a direct, unique URL link to an info page about them
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## 📸 GIF Walkthrough
+
+[App Walkthrough](https://canva.link/0szjrk41vxfuwws)
